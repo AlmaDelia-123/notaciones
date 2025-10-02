@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row justify-content-around">
+            <div class="row text-center">  
+                <h1 class="text-success">NOTACIONES</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-around mt-4">
+            <div class="col-4">
+                <label for="expresion">Ingresa una operación matemática</label>
+                <input type="text" class="form-control" id="expresion" placeholder="ej: 2+3*4"> <br>
+                <button type="button" id="btn_calcular" class="btn btn-primary">Calcular</button>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-8 mt-4" id="recorridos">
+                <!-- Aquí se mostrarán los resultados -->
+            </div>
+        </div>
+    </div>
+    <script src="./bundle.js"></script>
+</body>
+</html>

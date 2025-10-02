@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicaciones Web Front End</title>
+</head>
+<body>
+    <div class="container">
+        <form class="row justify-content-center">
+            <div class="col-md-5">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" class="form-control mb-3" type="text">
+                <label for="semestre">Semestr</label>
+                <select class="form-control mb-3" id="semestre">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <label for="carrera">Carrera</label>
+                <input id="carrera" class="form-control mb-3" type="text">
+                <label for="horas">Horas</label>
+                <input id="horas" class="form-control mb-3" type="text">
+                <button type="button" id="btn_agregar" class="btn btn-primary w-100">Añadir</button>
+            </div>
+            <div class="col-md-5">
+                <p id="contenido" class="lead"></p>
+            </div>
+        </form>
+    </div>  
+    <script src="./controller/index.js"></script>  
+</body>
+</html>
